@@ -10,13 +10,18 @@
         <link rel="stylesheet" href="css/style.css">
     </head>
     <body>
+        <div class="container">
+            <h1>TO DO LIST</h1>
 
-        <input type="text" id="nuova-voce" placeholder = "Inserisci una nuova voce...">
-        <button class = "insert">Inserisci!</button>
-        <ol class = "todos"></ol>
-
+            <input type="text" id="nuova-voce" placeholder = "Inserisci una nuova voce...">
+            <button class = "insert">Inserisci!</button>
+            <ol class = "todos"></ol>
+        </div>
+        
         <script id="entry-template" type="text/x-handlebars-template">
-          <li data-id={{id}}>{{text}}<span class="delete">X</span></li>
+          <!-- <li data-id={{id}} class="text">{{text}}<span><input type="text" placeholder = "Inserisci una nuova voce..."></span><span class="delete"> X</span></li> -->
+          <li data-id={{id}} class="text">{{text}}<span class="delete"> X</span></li>
+          <!-- <li data-id={{id}} class="text-hidden"><input type="text" placeholder = "Inserisci una nuova voce..."></li> -->
         </script>
 
 

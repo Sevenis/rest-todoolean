@@ -1,0 +1,38 @@
+/* * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+} */
+
+body {
+    background: MediumSeaGreen;
+}
+
+.container {
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+h1 {
+    color: blueviolet;
+}
+
+#nuova-voce {
+    width: 200px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.text {
+    padding-top: 10px;
+    color: blueviolet;
+    text-align: left;
+}
+
+.delete {
+    color: red;
+}
